@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
 title = "Welcome to Wu Jiajun's Homepage!"
-subtitle = ""
+subtitle = "Cease to struggle and you cease to live -- Thomas Carlyle"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -49,5 +49,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-## Cease to struggle and you cease to live -- Thomas Carlyle
