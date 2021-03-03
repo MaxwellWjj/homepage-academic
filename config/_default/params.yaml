@@ -21,7 +21,6 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: wu_jiajun@hust.edu.cn
-phone: 86 17362995517
 address:
   street: 1037 Luoyu Road
   city: Wuhan
@@ -32,7 +31,7 @@ address:
 coordinates:
   latitude: '29.58'
   longitude: '113.41'
-directions: Enter Building C and take the stairs to Office 747 on Floor 7
+directions: Enter Optics Building C and take the stairs to Office 747 on Floor 7
 office_hours:
   - 'Monday to Friday 09:00 to 20:00'
   - 'Saturday 09:00 to 18:00'
