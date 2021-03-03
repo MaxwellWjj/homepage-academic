@@ -18,7 +18,7 @@ bio: My research interests include AI hardware accelerator, neuromorphic computi
 
 # Interests to show in About widget
 interests:
-- AI Accelerator
+- AI Accelerators
 - Energy-efficient Neuromorphic Computing
 - Computer Architecture
 
