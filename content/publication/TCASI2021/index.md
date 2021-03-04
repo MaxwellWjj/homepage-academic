@@ -39,7 +39,7 @@ abstract: In emerging Spiking Neural Network (SNN) based neuromorphic hardware d
 # Summary. An optional shortened abstract.
 summary: This paper presents a novel CORDIC based Spiking Neural Network (SNN) design with on-line STDP learning and high hardware efficiency. A system design and evaluation method of CORDIC SNN is proposed to evaluate the hardware efficiency of SNN based on different CORDIC algorithm types and bit-width precisions.
 
-tags: [AI Accelerators, Neuromorphic Computing]
+tags: [AI Hardware, Neuromorphic Computing]
 
 # Display this page in the Featured widget?
 featured: true
