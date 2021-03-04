@@ -6,7 +6,7 @@ subtitle: This article presented a methodology to enable fast cost-benefit estim
 summary: This article presented a methodology to enable fast cost-benefit estimation of a DNN accelerator on a given DNN model and mapping, which consists of a compiler-friendly data-centric representation of mappings and an analytical cost-benefit estimation framework that exploits the explicit data reuse in data space in data-centric representations.
 
 # Link this post with a project
-projects: AI-Hardware
+projects: []
 
 # Date published
 date: "2021-03-03T00:00:00Z"
