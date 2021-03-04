@@ -36,5 +36,5 @@ experience:
     location: Singapore
     date_start: '2020-01-15'
     date_end: '2020-02-03'
-    description: Studied the advanced algorithms of neuromorphic computing and hardware implementation.
+    description: Studied advanced algorithms of neuromorphic computing and their hardware implementation.
 ---
