@@ -41,7 +41,7 @@ abstract: This paper proposes an energy-efficient multi-core processor design of
 # Summary. An optional shortened abstract.
 summary: In this paper, a multi-core RBM processor design with on-chip learning and reconfigurable sparsity is proposed to reduce energy consumption and improve processing throughput. The FPGA implementation results show that the proposed RBM design achieves 44.0% energy saving and 24.3% speed improvement in RBM training operation against the baseline CD-based RBM design. In the future, we will focus on ASIC implementation of our proposed RBM processor to further improve the energy efficiency and minimize the hardware cost.
 
-tags: [AI Accelerators]
+tags: [AI Hardware]
 
 # Display this page in the Featured widget?
 featured: true
