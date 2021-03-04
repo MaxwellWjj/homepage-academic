@@ -35,11 +35,6 @@ directions: Enter Optics Building C and take the stairs to Office 747 on Floor 7
 office_hours:
   - 'Monday to Friday 09:00 to 20:00'
   - 'Saturday 09:00 to 18:00'
-contact_links:
-  - icon: skype
-    icon_pack: fab
-    name: Jiajun Wu
-    link: 'skype:echo123?call'
 
 # Site header
 
