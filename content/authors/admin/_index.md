@@ -66,6 +66,6 @@ highlight_name: false
 
 Jiajun Wu (吴加隽) is an undergraduate student of IC design and Integrated Systems, Huazhong University of Science and Technology (HUST), Wuhan, China. His research interests include AI hardware accelerator, energy-efficient neuromorphic computing and computer architecture. He joined the Research Lab of Ultra Low Power and Intelligent Integrated Cicuits in 2019, supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm).
 
-Jiajun Wu will soon join the Department of Electrical and Electronic Engineering, the University of Hong Kong (HKU) to pursue his PhD. He will be supervised by [Prof. Hayden So](https://www.eee.hku.hk/~hso/) in HKU. His research direction in HKU is AI hardware system and applications.
+Jiajun Wu will soon join the Department of Electrical and Electronic Engineering, the University of Hong Kong (HKU) to pursue his PhD. He will be supervised by [Prof. Hayden Kwok-Hay So](https://www.eee.hku.hk/~hso/) in HKU. His research direction in HKU is AI hardware system and applications.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Wu_Jiajun_cv_latest.pdf" "newtab" >}}resumé in pdf{{< /staticref >}}.
