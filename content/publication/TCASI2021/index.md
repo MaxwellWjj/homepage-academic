@@ -54,7 +54,7 @@ url_code: 'https://github.com/MaxwellWjj/FPGA_Spiking_NN'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'Slides-Storyline_TCAS-I_CORDIC_SNN.pptx'
 url_source: ''
 url_video: ''
 
