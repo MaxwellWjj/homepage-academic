@@ -56,7 +56,7 @@ url_code: 'https://github.com/MaxwellWjj/DBN-Processor'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'slides.pptx'
+url_slides: 'Presentration-A-SSCC2020-Jiajun-20201023.pptx'
 url_source: ''
 url_video: ''
 
