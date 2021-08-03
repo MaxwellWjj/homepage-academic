@@ -79,4 +79,4 @@ projects: []
 slides: ""
 ---
 
-This paper was my first journal article, which inspired me to further study AI accelerators. Please note that the "code" is RTL-level code. The software simulation code is here: [Software Simulation Codes](https://github.com/MaxwellWjj/ULIIC_SNN_library). The slides of this work will soon be uploaded.
+This paper was my first journal article, which inspired me to further study AI accelerators. Please note that the "code" is RTL-level code. The software simulation code is here: [Software Simulation Codes](https://github.com/MaxwellWjj/ULIIC_SNN_library).
