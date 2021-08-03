@@ -13,9 +13,6 @@ main:
   - name: Publications
     url: './publication/'
     weight: 30
-  - name: Essay
-    url: '#essay'
-    weight: 40
   - name: Contact
     url: '#contact'
     weight: 50
