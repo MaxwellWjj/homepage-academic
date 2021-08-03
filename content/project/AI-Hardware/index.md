@@ -9,7 +9,7 @@ image:
   focal_point: Smart
 
 links:
-url_code: "https://github.com/MaxwellWjj/RBM_Processor"
+url_code: "https://github.com/MaxwellWjj/DBN_Processor"
 url_pdf: ""
 url_slides: ""
 url_video: ""
