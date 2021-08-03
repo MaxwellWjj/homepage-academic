@@ -25,8 +25,8 @@ subtitle = "Cease to struggle and you cease to live -- Thomas Carlyle"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "Linen"
-  gradient_end = "Ivory"
+  gradient_start = "PeachPuff"
+  gradient_end = "PapayaWhip"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
@@ -36,7 +36,7 @@ subtitle = "Cease to struggle and you cease to live -- Thomas Carlyle"
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  text_color_light = false
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
