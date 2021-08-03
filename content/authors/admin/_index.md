@@ -6,15 +6,15 @@ title: Jiajun Wu
 superuser: true
 
 # Role/position/tagline
-role: Undergraduate Student
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Huazhong University of Science and Technology
-  url: http://english.hust.edu.cn/
+- name: The University of Hong Kong
+  url: https://www.hku.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include AI hardware accelerator, neuromorphic computing and computer architecture.
+bio: My research interests include Hardware accelerator, neuromorphic computing and computer architecture.
 
 # Interests to show in About widget
 interests:
