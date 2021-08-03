@@ -25,8 +25,8 @@ subtitle = "Cease to struggle and you cease to live -- Thomas Carlyle"
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "LavenderBlush"
-  gradient_end = "MistyRose"
+  gradient_start = "Linen"
+  gradient_end = "Ivory"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/media/`.
