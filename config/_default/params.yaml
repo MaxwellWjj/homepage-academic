@@ -20,21 +20,16 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: wu_jiajun@hust.edu.cn
+email: jjwu@connect.hku.hk
 address:
-  street: 1037 Luoyu Road
-  city: Wuhan
-  region: Hubei
-  postcode: '430000'
-  country: China
-  country_code: CN
+  street: Main Campus, HKU, Pokfulam Road
+  region: Centeral and Western
+  country: Hong Kong
+  country_code: HK
 coordinates:
-  latitude: '30.51'
-  longitude: '114.43'
-directions: Enter Optics Building C and take the stairs to Office 747 on Floor 7
-office_hours:
-  - 'Monday to Friday 09:00 to 20:00'
-  - 'Saturday 09:00 to 18:00'
+  latitude: '22.28'
+  longitude: '114.14'
+directions: CYC Building
 
 # Site header
 
