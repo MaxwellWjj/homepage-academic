@@ -64,8 +64,10 @@ email: ""
 highlight_name: false
 ---
 
-Jiajun Wu is a PhD student in the Department of Electrical and Electronic Engineering, The University of Hong Kong, Hong Kong. His research interests include hardware accelerator, neuromorphic computing and computer architecture. He has joined the Computer Architecture and System Research (CASR), supervised by [Prof. Hayden Kwok-Hay So](https://www.eee.hku.hk/~hso/).
+Jiajun Wu is a PhD student in the Department of Electrical and Electronic Engineering, The University of Hong Kong (HKU), Hong Kong. Currently, his research interests include FPGA system, hardware accelerator and computer architecture. He has joined the Computer Architecture and System Research (CASR), supervised by [Prof. Hayden Kwok-Hay So](https://www.eee.hku.hk/~hso/).
 
-Jiajun Wu was with the School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST) and obtained his B.Eng. In HUST, he was supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm).
+Jiajun Wu was with the School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST) and obtained his Bachelor Degree. He was supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm) in HUST. Jiajun focused on energy-efficient neuromorphic computing and AI accelerators design during undergraduate.
+
+For all the publications, please click *publications* in the menu.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Wujiajun_cv_latest.pdf" "newtab" >}}resumé in pdf{{< /staticref >}}.
