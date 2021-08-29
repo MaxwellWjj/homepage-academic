@@ -68,4 +68,4 @@ Jiajun Wu is a PhD student in the Department of Electrical and Electronic Engine
 
 Jiajun Wu was with the School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST) and obtained his B.Eng. In HUST, he was supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm).
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Wu_Jiajun_cv_latest.pdf" "newtab" >}}resumé in pdf{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Wujiajun_cv_latest.pdf" "newtab" >}}resumé in pdf{{< /staticref >}}.
