@@ -10,7 +10,7 @@ image:
 
 links:
 url_code: "https://github.com/MaxwellWjj/DBN_Processor"
-url_pdf: "Efficient DNN Hardware Accelerator with On-chip Learning - A Deep Belief Network Processor Case.pdf"
+url_pdf: "media/presentation_ai_hardware.pdf"
 url_slides: ""
 url_video: ""
 

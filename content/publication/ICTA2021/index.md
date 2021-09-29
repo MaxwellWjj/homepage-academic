@@ -1,5 +1,5 @@
 ---
-title: "In Situ Aging-Aware Error Monitoring Scheme for IMPLY-Based Memristive Computing-in-Memory Systems"
+title: "A Reconfigurable Area and Energy Efficient Hardware Accelerator of Five High-order Operators for Vision Sensor Based Robot Systems"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
