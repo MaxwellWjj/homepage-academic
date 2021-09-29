@@ -58,7 +58,7 @@ url_poster: ''
 url_project: ''
 url_slides: 'Presentration-A-SSCC2020-Jiajun-20201023.pptx'
 url_source: ''
-url_video: ''
+url_video: 'https://www.bilibili.com/video/BV19v411t7nS?spm_id_from=333.999.0.0'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
