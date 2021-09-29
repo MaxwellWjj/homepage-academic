@@ -16,6 +16,11 @@ authors:
 - Kwen-Siong Chong
 - Chao Wang
 
+# Author notes (optional)
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
+
 date: "2021-09-27T00:00:00Z"
 doi: "10.1109/JETCAS.2021.3114396"
 
