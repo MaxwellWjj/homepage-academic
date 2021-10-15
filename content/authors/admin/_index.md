@@ -48,7 +48,7 @@ social:
   link: https://github.com/MaxwellWjj
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/in/%E5%8A%A0%E9%9A%BD-%E5%90%B4-0121041a5/
+  link: https://www.linkedin.com/in/jiajun-wu-0121041a5/
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
