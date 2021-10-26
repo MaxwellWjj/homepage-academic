@@ -31,7 +31,6 @@ authors:
 - admin
 
 tags:
-- AI Hardware
 
 categories:
 - Top-tier conference

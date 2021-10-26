@@ -49,13 +49,16 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jiajun-wu-0121041a5/
+- icon: researchgate
+  icon_pack: ai
+  link: https://www.researchgate.net/profile/Jiajun-Wu-20
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: media/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: media/Wujiajun_cv_latest.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -64,10 +67,10 @@ email: ""
 highlight_name: false
 ---
 
-Jiajun Wu is a PhD student in the Department of Electrical and Electronic Engineering, The University of Hong Kong (HKU), Hong Kong. Currently, his research interests include FPGA system, hardware accelerator and computer architecture. He has joined the Computer Architecture and System Research (CASR), supervised by [Prof. Hayden Kwok-Hay So](https://www.eee.hku.hk/~hso/).
+I am is a PhD student in the Department of Electrical and Electronic Engineering, The University of Hong Kong (HKU), Hong Kong. Currently, my research interests include **reconfigurable computing based on FPGA**, **hardware accelerator** and **computer architecture**. I joined the Computer Architecture and System Research (CASR) in September 2021, supervised by [Prof. Hayden Kwok-Hay So](https://www.eee.hku.hk/~hso/).
 
-Jiajun Wu was with the School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST) and obtained his Bachelor Degree. He was supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm) in HUST. Jiajun focused on energy-efficient neuromorphic computing and AI accelerators design during undergraduate.
+Before joining HKU, I was with the School of Optical and Electronic Information, Huazhong University of Science and Technology (HUST), China, where I obtained my Bachelor's Degree. I was supervised by [Prof. Chao Wang](http://faculty.hust.edu.cn/WangChao/zh_CN/index.htm) in HUST. During undergraduate, I focused on energy-efficient neuromorphic computing and AI accelerators design.
 
-For all the publications, please click *publications* in the menu.
+In leisure time, I usually read suspense novels. Keigo Higashino is my favourite novelist. Besides, I spend my free time going swimming or hiking. Hong Kong is absolutely a wonderful place for hiking. Playing PC games is also one of my hobbies. I love many interesting games such as Dota2, City Skylines, Civilization series etc.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/Wujiajun_cv_latest.pdf" "newtab" >}}resumé in pdf{{< /staticref >}}.
