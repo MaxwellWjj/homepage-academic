@@ -14,7 +14,7 @@ authors:
 - Chao Wang
 
 date: "2021-08-28T00:00:00Z"
-# doi: "10.1109/TCSI.2021.3095545"
+doi: "10.1109/ICTA53157.2021.9661719"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
