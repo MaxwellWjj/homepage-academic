@@ -1,5 +1,5 @@
 ---
-title: "A Reconfigurable Area and Energy Efficient Hardware Accelerator of Five High-order Operators for Vision Sensor Based Robot Systems"
+title: "Energy-Efficient Intelligent Pulmonary Auscultation for Post COVID-19 Era Wearable Monitoring Enabled by Two-Stage Hybrid Neural Network"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
