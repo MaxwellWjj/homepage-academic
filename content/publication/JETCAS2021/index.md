@@ -57,7 +57,7 @@ url_code: 'https://github.com/MaxwellWjj/DBN-Processor'
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'Slides_Storyline_JETCAS_DBN Processor.pptx'
+url_slides: ''
 url_source: ''
 url_video: ''
 
