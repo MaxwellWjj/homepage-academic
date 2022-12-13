@@ -20,15 +20,15 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: jjwu@connect.hku.hk
+email: jjwu@eee.hku.hk
 address:
   street: Main Campus, HKU, Pokfulam Road
   region: Hong Kong
   country: Hong Kong
   country_code: HK
 coordinates:
-  latitude: '22.28039218579443'
-  longitude: '114.14048152478408'
+  latitude: '22.28361111111111'
+  longitude: '114.13527777777777'
 directions: CYC Building
 
 # Site header

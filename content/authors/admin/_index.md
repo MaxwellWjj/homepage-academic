@@ -14,12 +14,12 @@ organizations:
   url: https://www.hku.hk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Hardware accelerator, neuromorphic computing and computer architecture.
+bio: My research interests include Hardware accelerator, reconfigurable computing and computer architecture.
 
 # Interests to show in About widget
 interests:
 - Hardware Accelerator
-- Neuromorphic Computing
+- Reconfigurable Computing
 - Computer Architecture
 
 # Education to show in About widget
