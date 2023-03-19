@@ -22,10 +22,10 @@ author_notes:
 - "Equal contribution"
 
 date: "2023-03-18T00:00:00Z"
-# doi: "10.1109/A-SSCC48613.2020.9336135"
+doi: "https://doi.org/10.48550/arXiv.2302.12510"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-05-11T00:00:00Z"
+publishDate: "2023-03-18T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
