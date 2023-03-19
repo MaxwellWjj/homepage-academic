@@ -36,4 +36,4 @@ Generally, an AI hardware system needs highly optimized Processing Elements (PEs
 
 - Problem 5: Architecture-compiler co-design and dynamic reschedule.
 
-Currently we are working on accelerator generation, which aims to solve the problem 5. We prepare to summarize into a paper and submit it to FCCM'22 Conference. Hope everything goes well!
+This project is also related to Mixed-Precision AI Hardware and Architecture-Compiler Co-Design projects.
