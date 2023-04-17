@@ -26,14 +26,4 @@ Artificial Intelligent (AI) has been widely studied due to its high performance 
 
 Generally, an AI hardware system needs highly optimized Processing Elements (PEs) for computation, domain-specific architecture and an efficient compiler for scheduling data mapping and movement. In architecture level, the key optimization point is the connection and dataflow of PEs with hierarchical architecture. For a certain multi-level hardware architecture, there are thousands to millions of data mapping solutions and data moving strategies. Therefore, how to find the best optimized mapping and data flow solution for different goals like power and latency should be the task of compilers. The AI model is represented as loops, memory addresses, and computational functions by compilers. Compilation optimizes tasks to efficiently run on each PE of hardware. Although AI hardware has been deeply studied in the academic field, there are still some problems and bottlenecks that need to be solved, which are my objectives during PhD research.
 
-- Problem 1: PE-level optimization for supporting both training and inference. 
-
-- Problem 2: PE-level optimization for sparsity in AI models. 
-
-- Problem 3: Varieties of AI models cannot be efficiently accelerated in a fixed architecture.
-
-- Problem 4: Architecture should be abstract to find the best topology and parameters.
-
-- Problem 5: Architecture-compiler co-design and dynamic reschedule.
-
 This project is also related to Mixed-Precision AI Hardware and Architecture-Compiler Co-Design projects.
