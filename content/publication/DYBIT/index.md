@@ -21,21 +21,21 @@ author_notes:
 - "Equal contribution"
 - "Equal contribution"
 
-date: "2023-03-18T00:00:00Z"
-doi: "https://doi.org/10.48550/arXiv.2302.12510"
+date: "2023-12-13T00:00:00Z"
+doi: "10.1109/TCAD.2023.3342730"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2023-03-18T00:00:00Z"
+publishDate: "2023-12-13T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In the Design Automation Conference 2023
-publication_short: In *DAC 2023*
+publication: In IEEE Transactions on Computer-Aided Design of Inte-grated Circuits and Systems
+publication_short: In *TCAD*
 
 abstract: To accelerate the inference of deep neural networks (DNNs), quantization with low-bitwidth numbers is actively researched. A prominent challenge is to quantize the DNN models into low-bitwidth numbers without significant accuracy degradation, especially at very low bitwidths ($<$ 8 bits). This work targets an adaptive data representation with variable-length encoding called DyBit. DyBit can dynamically adjust the precision and range of separate bit-field to be adapted to the DNN weights/activations distribution. We also propose a hardware-aware quantization framework with a mixed-precision accelerator to trade-off the inference accuracy and speedup. Experimental results demonstrate that the inference accuracy via DyBit is 1.97\% higher than the state-of-the-art at 4-bit quantization, and the proposed framework can achieve up to 8.1$\times$ speedup compared with the original model.
 
@@ -82,4 +82,4 @@ projects: []
 slides: ""
 ---
 
-This paper has been accepted as a poster in DAC 2023. We are submitting it to TCAD.
+This paper has firstly been accepted as a poster in DAC 2023.
