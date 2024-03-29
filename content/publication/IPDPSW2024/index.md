@@ -1,5 +1,5 @@
 ---
-title: "A Case for Low Bitwidth Floating Point Arithmetic on FPGA for Transformer Based DNN Inferenc"
+title: "A Case for Low Bitwidth Floating Point Arithmetic on FPGA for Transformer Based DNN Inference"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
