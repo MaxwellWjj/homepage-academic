@@ -20,16 +20,16 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: jjwu at eee dot hku dot hk
+email: jiajunwu at ust dot hk
 address:
-  street: Main Campus, HKU, Pokfulam Road
-  region: Hong Kong
+  street: Building 17W, Hong Kong Science Park
+  region: New Territories
   country: Hong Kong
   country_code: HK
 coordinates:
-  latitude: '22.28361111111111'
-  longitude: '114.13527777777777'
-directions: CYC Building
+  latitude: '22.426732'
+  longitude: '114.208706'
+directions: Room 801-807, 8/F
 
 # Site header
 
