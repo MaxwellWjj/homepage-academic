@@ -5,19 +5,18 @@ widget: pages
 
 # This file represents a page section.
 headless: true
-active: false  # Activate this widget? true/false
 
 # Order that this section appears on the page.
-weight: 100
+weight: 50
 
-title: Essay of Papers
+title: Notes and Blogs
 subtitle:
 
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: post
   # Choose how many pages you would like to display (0 = all pages)
-  count: 5
+  count: 1
   # Filter on criteria
   filters:
     author: ""
