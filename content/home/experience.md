@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Experience
+title: Extra Experiences
 subtitle:
 
 # Date format for experience
@@ -22,6 +22,14 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Visiting Student
+    company: Wuxi EDA Institute, Peking University
+    company_url: 'https://www.pkueda.org.cn/'
+    location: Wuxi, China
+    date_start: '2024-09-01'
+    date_end: '2025-01-15'
+    description: LLM optimization of prefill and decode stages mismatching.
+
   - title: Research Intern
     company: Zhuhai University of Macau Research Institute
     company_url: 'http://www.zumri.cn/'

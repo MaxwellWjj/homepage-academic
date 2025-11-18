@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr. Jiajun Wu
+title: Jiajun Wu
 
 # Is this the primary user of the site?
 superuser: true
