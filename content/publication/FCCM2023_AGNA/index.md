@@ -40,7 +40,7 @@ summary: In this paper, we have presented AGNA, an open-source deep neural netwo
 tags: [AI Hardware]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
@@ -76,5 +76,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-The final version of pdf file and the conference poster/video will be uploaded in the future. Doi is not the real one now.

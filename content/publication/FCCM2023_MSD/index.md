@@ -51,9 +51,9 @@ featured: true
 url_pdf: ''
 url_code: 'https://github.com/CASR-HKU/MSD-FCCM23'
 url_dataset: ''
-url_poster: ''
+url_poster: 'msd_poster_new.pdf'
 url_project: ''
-url_slides: ''
+url_slides: 'msd_fccm2023_slides.pdf'
 url_source: ''
 url_video: ''
 

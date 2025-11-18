@@ -9,7 +9,7 @@ image:
   focal_point: Smart
 
 links:
-url_code: "https://github.com/MaxwellWjj/DBN_Processor"
+url_code:
 url_pdf: "media/presentation_ai_hardware.pdf"
 url_slides: ""
 url_video: ""
@@ -26,4 +26,4 @@ Artificial Intelligent (AI) has been widely studied due to its high performance 
 
 Generally, an AI hardware system needs highly optimized Processing Elements (PEs) for computation, domain-specific architecture and an efficient compiler for scheduling data mapping and movement. In architecture level, the key optimization point is the connection and dataflow of PEs with hierarchical architecture. For a certain multi-level hardware architecture, there are thousands to millions of data mapping solutions and data moving strategies. Therefore, how to find the best optimized mapping and data flow solution for different goals like power and latency should be the task of compilers. The AI model is represented as loops, memory addresses, and computational functions by compilers. Compilation optimizes tasks to efficiently run on each PE of hardware. Although AI hardware has been deeply studied in the academic field, there are still some problems and bottlenecks that need to be solved, which are my objectives during PhD research.
 
-This project is also related to Mixed-Precision AI Hardware and Architecture-Compiler Co-Design projects.
+This project is also related to Mixed-Precision AI Hardware and Architecture-Compiler Co-Design projects. Most of my studies and publications are corresponding to this area. Please check my publication list for more details.
