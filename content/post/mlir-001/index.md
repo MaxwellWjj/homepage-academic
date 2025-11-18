@@ -42,7 +42,7 @@ categories:
 
 IR（中间表示，Intermediate Representation）是一种中介数据格式，用于简化模型在不同框架之间的转换。在深度学习领域，任何能够表示计算图结构的数据格式均可视为一种IR，例如ONNX、TorchScript、TVM Relay等。由于本项目主要围绕ONNX-MLIR展开，后续内容将聚焦于ONNX这一框架。
 
-ONNX是由微软和Facebook提出的一种IR，它定义了一套标准化的算子格式。无论使用PyTorch、TensorFlow还是OneFlow等深度学习框架，均可将计算图转换为ONNX格式进行存储。各类部署框架只需支持ONNX模型格式，即可实现跨框架模型的便捷部署，从而显著降低了不同框架间模型互转的复杂性。
+ONNX是由微软提出的一种IR，它定义了一套标准化的算子格式。无论使用PyTorch、TensorFlow还是OneFlow等深度学习框架，均可将计算图转换为ONNX格式进行存储。各类部署框架只需支持ONNX模型格式，即可实现跨框架模型的便捷部署，从而显著降低了不同框架间模型互转的复杂性。
 
 然而，ONNX在设计时未充分考虑不同框架中算子功能与实现方式的差异。由于难以覆盖所有框架及版本的算子实现，ONNX目前已累积了十余个版本的算子定义，给用户带来较大困扰。可以类比的是，IR在计算图中的作用类似于计算机体系结构中的指令集，而指令集的频繁变动通常是难以接受的。此外，ONNX虽然提供了如If之类的控制流算子，但支持仍较为有限。从广义上看，只要一种中介数据格式能够表示由算子和数据构成的深度学习模型，即可被视为IR。
 
@@ -74,7 +74,7 @@ IR是编译器的中间表示，MLIR中的几个关键特性：
 - **基本块（Blocks）**：包含操作的有序序列
 
 示例IR结构：
-``` mlir
+``` python
 // 这是一个MLIR函数的例子
 func.func @example(%arg0: i32) -> i32 {
     %0 = arith.constant 42 : i32
@@ -104,7 +104,7 @@ Operation是MLIR中的基本执行单元，包含：
 - **区域**：包含子操作（用于结构化操作）
 
 TableGen定义示例：
-``` mlir
+``` python
 // 在MyDialect.td文件中
 def My_AddOp : My_Op<"add"> {
     let summary = "addition operation";
@@ -123,7 +123,7 @@ Attribute是编译时常量数据，用于参数化操作：
 - **多样性**：支持整数、浮点数、字符串、数组等类型
 
 属性使用示例：
-``` mlir
+``` python
 %result = my_dialect.custom_op %input {
     factor = 42.0 : f32,
     name = "example",
@@ -140,7 +140,7 @@ Attribute是编译时常量数据，用于参数化操作：
 - **操作数数量约束**：确保正确数量的操作数
 
 约束定义示例：
-``` mlir
+``` python
 // 类型约束
 def My_TensorType : Type<My_Dialect, "Tensor"> {
     let parameters = (ins "int64_t":$rank, "ArrayRef<int64_t>":$shape);
@@ -167,7 +167,7 @@ def My_MatmulOp : My_Op<"matmul"> {
 - **区域特性**：如`SingleBlock`、`RecursiveMemoryEffects`
 
 Trait使用示例：
-``` mlir
+``` python
 def My_AddOp : My_Op<"add"> {
     let arguments = (ins My_Type:$lhs, My_Type:$rhs);
     let results = (outs My_Type:$result);
@@ -182,7 +182,7 @@ def My_AddOp : My_Op<"add"> {
 ```
 
 但是我们一般不这么做，而是直接在自定义的operation参数里声明它的特质，例如MLIR官方的toy example中，直接将Pure这个Trait传入：
-``` mlir
+``` python
 def ConstantOp : Toy_Op<"constant", [Pure]> {
   // Provide a summary and description for this operation. This can be used to
   // auto-generate documentation of the operations within our dialect.
@@ -201,7 +201,7 @@ def ConstantOp : Toy_Op<"constant", [Pure]> {
 接口作为MLIR中非常重要的核心概念之一，广泛应用在Dialect之间的转换（即pass）中。
 
 接口定义示例：
-``` mlir
+``` python
 // 在MyInterfaces.td文件中
 def My_InferTypeOpInterface : OpInterface<"InferTypeOpInterface"> {
     let description = "Interface for operations that can infer their return types";
@@ -258,7 +258,7 @@ void registerMyOptimizationPass() {
 ### 3.1 Dialect定义（TableGen）
 
 在`MyDialect.td`中：
-``` mlir
+``` python
 // 包含必要的MLIR基础定义
 include "mlir/IR/OpBase.td"
 include "mlir/IR/OpAsmInterface.td"
@@ -278,7 +278,7 @@ def My_Dialect : Dialect {
 ### 3.2 Operation定义（TableGen）
 
 在`MyOps.td`中：
-``` mlir
+``` python
 // 包含dialect定义
 include "MyDialect.td"
 
@@ -329,11 +329,11 @@ void MyDialect::initialize() {
     #define GET_OP_LIST
     #include "MyDialect/MyOps.cpp.inc"
 
-    ();
+    ...
     addTypes<
     #define GET_TYPEDEF_LIST
     #include "MyDialect/MyTypes.cpp.inc"
-    ();
+    ...
 }
 
 // 自定义操作的C++实现
@@ -349,7 +349,7 @@ LogicalResult My_CustomOp::verify() {
 ### 3.4 Type和Attribute定义
 
 在`MyTypes.td`中：
-``` mlir
+``` python
 // 自定义类型定义
 def My_CustomType : TypeDef<My_Dialect, "CustomType"> {
     let parameters = (ins "int64_t":$size);
